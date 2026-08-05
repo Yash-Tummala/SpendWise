@@ -1,0 +1,1 @@
+import{Link}from'react-router-dom';import'./NotFound.css';export default function NotFound(){return <main className="notfound"><span>404</span><h1>This page has wandered off.</h1><p>Let’s get you back to your ledger.</p><Link className="button button-primary" to="/">Go to dashboard</Link></main>}
